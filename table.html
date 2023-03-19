@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>HTML TABLE</title>
+<style>
+    table{
+        width: 400px;
+        height: 300px;
+        border: 3px solid #0f0000;
+        border-collapse:collapse ;
+        
+    }
+    th,td{
+        border: 3px solid black;
+        padding: 15px;
+       background-color: aquamarine;
+    }
+    tr{
+        text-align: center;
+    }
+    
+</style>
+    </head>
+    <body>
+          <table>
+            <caption>TABLE 1</caption>
+                <thead>
+                    <tr>
+                         <th>ID</th>
+                         <th>NAME</th>
+                         <th>SECTION</th>
+                         <th>DEPARTMENT</th>
+                    </tr>
+                </thead>
+                      <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>Sorna</td>
+                            <td>A</td>
+                            <td>CSE</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Aima</td>
+                            <td>B</td>
+                            <td>BBA</td>
+                        </tr>
+                      </tbody>
+          </table>
+          <table>
+            <caption>TABLE 2</caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>name</th>
+                    <th>section</th>
+                    <th>department</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>sorna</td>
+                        <td rowspan="2">a</td>
+                        <td rowspan="4">CSE</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>aysha</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>rima</td>
+                        <td rowspan="2">b</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>trisha</td>
+                    </tr>
+                </tbody>
+            </thead>
+          </table>
+          <table>
+            <caption>TABLE 3</caption>
+            <thead>
+                <tr>
+                    <th colspan="5">student info</th>
+                    
+                    
+                </tr>
+                <tbody>
+                    <tr>
+                        <th rowspan="4">CSE</th>  
+                        <th>id</th>
+                        <th>NAME</th>
+                        <th colspan="2">contact</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>sorna</td>
+                        <td>86583248</td>
+                        <td>6556496</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>mina</td>
+                        <td>8658000</td>
+                        <td>465747</td>
+                    </tr>
+                </tbody>
+            </thead>
+          </table>
+    </body>
+</html>
